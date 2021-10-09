@@ -223,7 +223,6 @@ internal final class DropView: UIView {
         view.axis = .horizontal
         view.alignment = .center
         view.distribution = .fill
-		view.semanticContentAttribute = .forceRightToLeft
         if drop.icon != nil && drop.action?.icon != nil {
             view.spacing = 20
         } else {
